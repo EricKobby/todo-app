@@ -1,0 +1,40 @@
+
+.wrap{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.custom-input{
+    border: .1rem solid #eee;
+    padding: 4px 6px;
+    outline-style: none;
+    transition: .5s linear all;
+    border-radius: 4px;
+}
+
+.custom-input:hover{
+    border-color: rgba(39, 183, 202, 0.616);
+}
+div.col{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.custom-button{
+    border: none;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background-color: #041961;
+    color:  #eee;
+    outline-style: none;
+}
+
+button.action-button{
+    background-color: red;
+    cursor: pointer;
+    outline-style: none;
+}
